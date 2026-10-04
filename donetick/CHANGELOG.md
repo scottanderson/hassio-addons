@@ -1,5 +1,33 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 0.1.80:
+## What's Changed
+* Fixes 0920 just duedate by @meauxt in https://github.com/donetick/donetick/pull/850
+* fix: let a circle admin/manager delete any chore, not just the creator by @wesleymerrick in https://github.com/donetick/donetick/pull/837
+* fix: honor single_circle_instance for password-based signup by @wesleymerrick in https://github.com/donetick/donetick/pull/829
+* Unify all authentication points using new semantics by @keslerm in https://github.com/donetick/donetick/pull/815
+* Send scopes in OAuth2 configuration API for frontend by @Doridian in https://github.com/donetick/donetick/pull/734
+* Implement PKCE support by @Doridian in https://github.com/donetick/donetick/pull/741
+* feat(chore): add 'always' frequency type and update related logic in … by @meauxt in https://github.com/donetick/donetick/pull/856
+* Project privacy 718 continued by @meauxt in https://github.com/donetick/donetick/pull/851
+* Add private projects visible only to their creator by @raulanatol in https://github.com/donetick/donetick/pull/749
+* Support project_id in eapi/v1/chore by @postwait in https://github.com/donetick/donetick/pull/715
+* fix: correct DT_EMAIL_APP_HOST env var mismatch by @wesleymerrick in https://github.com/donetick/donetick/pull/830
+* fix(api): trim chore name input and set defaults for update if empty by @meauxt in https://github.com/donetick/donetick/pull/858
+* docs: clarify docker-compose is for hosted version by @omarkohl in https://github.com/donetick/donetick/pull/578
+* Allow API to modify archive status by @torbenvanassche in https://github.com/donetick/donetick/pull/861
+* refactor: standardize field formatting in EmailConfig and Update project related test by @meauxt in https://github.com/donetick/donetick/pull/863
+
+## New Contributors
+* @wesleymerrick made their first contribution in https://github.com/donetick/donetick/pull/837
+* @keslerm made their first contribution in https://github.com/donetick/donetick/pull/815
+* @Doridian made their first contribution in https://github.com/donetick/donetick/pull/734
+* @raulanatol made their first contribution in https://github.com/donetick/donetick/pull/749
+* @postwait made their first contribution in https://github.com/donetick/donetick/pull/715
+* @torbenvanassche made their first contribution in https://github.com/donetick/donetick/pull/861
+
+**Full Changelog**: https://github.com/donetick/donetick/compare/v0.1.79...v0.1.80
+
 ## 0.1.79:
 ## What's Changed
 * Update README.md by @meauxt in https://github.com/donetick/donetick/pull/661
